@@ -23,12 +23,11 @@ highlight ColorColumn ctermbg=7
 
 colorscheme evening
 
-syntax on
-
-filetype plugin indent on
-
 inoremap kj <Esc>
 let mapleader = "\<Space>"
 
-set runtimepath^=~/.vim/bundle/ctrlp.vim
 execute pathogen#infect()
+
+syntax on
+
+filetype plugin indent on
