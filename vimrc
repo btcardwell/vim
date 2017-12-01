@@ -28,12 +28,13 @@ set encoding=utf-8
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set textwidth=90
 set expandtab
 set ignorecase
 set smartcase
 set fileformat=unix
 let python_highlight_all=1
+set splitright
+set splitbelow
 " filetype plugin indent on
 " syntax on
 
