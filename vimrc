@@ -5,14 +5,11 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tmhedberg/SimpylFold'
-" Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'kien/ctrlp.vim'
-" Plugin 'tpope/vim-fugitive'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'tpope/vim-surround'
-" Plugin 'davidhalter/jedi-vim'
 call vundle#end()
 filetype plugin indent on
 
@@ -35,8 +32,6 @@ set fileformat=unix
 let python_highlight_all=1
 set splitright
 set splitbelow
-" filetype plugin indent on
-" syntax on
 
 " highlight BadWhitespace ctermbg=darkred guibg=darkred
 " match BadWhitespace /\s\+$/
