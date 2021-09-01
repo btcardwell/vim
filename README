@@ -1,0 +1,2 @@
+clone
+ln ~/.vim/vimrc ~/.vimrc
