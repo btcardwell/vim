@@ -1,2 +1,5 @@
-clone
+clone to ~/.vim
+cd ~/.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+in vim, run :PluginInstall
 ln ~/.vim/vimrc ~/.vimrc
