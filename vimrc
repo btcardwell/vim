@@ -46,6 +46,9 @@ inoremap kj <Esc>
 let mapleader = "\<Space>"
 
 " Persistent undo
+if !isdirectory($HOME."/.vim/undo")
+    call mkdir($HOME."/.vim/undo", "", 0700)
+endif
 set undofile
 set undodir=~/.vim/undo
 
